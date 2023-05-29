@@ -1,2 +1,2 @@
-export const increment = () => ({ type: "INCREMENT" });
-export const decrement = () => ({ type: "DECREMENT" });
+export const increment = (payload) => ({ type: "INCREMENT", payload });
+export const decrement = (payload) => ({ type: "DECREMENT", payload });
