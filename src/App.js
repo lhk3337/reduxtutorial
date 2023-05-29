@@ -1,11 +1,9 @@
-import Count from "./Count";
-import StateCount from "./StateCount";
+import Weather from "./components/Weather";
 
 function App() {
   return (
     <div className="App">
-      <Count />
-      <StateCount />
+      <Weather />
     </div>
   );
 }
